@@ -13,6 +13,24 @@ A powerful natural language to SQL conversion system that allows customer servic
 - **Error Handling**: Robust error management with retries
 - **Performance Tracking**: Query statistics and monitoring
 
+## 📸 Application Screenshots
+
+### Main Interface
+![Main Interface](./ui_snapshots/main_interface.png)
+*The main query interface where users can enter natural language questions*
+
+### Results Display
+![Results Display](./ui_snapshots/results_display.png)
+*Query results with formatted output*
+
+### Query Results
+![Query Results](./ui_snapshots/query_results.png)
+*SQL Query, generated during user natural language query processing*
+
+### Usage Statistics
+![Usage Statistics](./ui_snapshots/usage_statistics.png)
+*System health and performance monitoring dashboard*
+
 ## 📁 Project Structure
 
 ```
@@ -440,79 +458,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - FastAPI and Streamlit teams
 - PostgreSQL community
 
-## 📸 Application Screenshots
 
-### Main Interface
-![Main Interface](./ui_snapshots/main_interface.png)
-*The main query interface where users can enter natural language questions*
 
-### Results Display
-![Results Display](./ui_snapshots/results_display.png)
-*Query results with formatted output*
 
-### Query Results
-![Query Results](./ui_snapshots/query_results.png)
-*SQL Query, generated during user natural language query processing*
 
-### Usage Statistics
-![Usage Statistics](./ui_snapshots/usage_statistics.png)
-*System health and performance monitoring dashboard*
 
-### Adding Your Own Screenshots
-
-To add your own screenshots to this documentation:
-
-1. **Create Screenshots Directory**
-   ```bash
-   mkdir -p docs/images
-   ```
-
-2. **Capture Screenshots**
-   - Use your system's screenshot tool
-   - Recommended resolution: 1920x1080
-   - Format: PNG (preferred) or JPG
-   - Max file size: 500KB per image
-
-3. **Name Screenshots**
-   ```
-   docs/images/
-   ├── main_interface.png
-   ├── query_processing.png
-   ├── results_display.png
-   └── monitoring.png
-   ```
-
-4. **Add to Documentation**
-   ```markdown
-   ![Description](docs/images/your_screenshot.png)
-   *Caption explaining the screenshot*
-   ```
-
-5. **Best Practices**
-   - Use clear, well-lit screenshots
-   - Highlight important features
-   - Remove sensitive information
-   - Include captions explaining key elements
-   - Keep file sizes optimized
-
-### Recommended Screenshot Locations
-
-1. **Main Interface**
-   - Natural language query input
-   - Example queries section
-   - Query history panel
-
-2. **Query Processing**
-   - Processing indicator
-   - Progress feedback
-   - Status messages
-
-3. **Results Display**
-   - Formatted query results
-   - Data visualizations
-   - Follow-up suggestions
-
-4. **System Monitoring**
-   - Performance metrics
-   - System health indicators
-   - Error tracking
