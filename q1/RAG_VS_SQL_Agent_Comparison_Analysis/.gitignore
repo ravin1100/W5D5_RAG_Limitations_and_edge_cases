@@ -1,0 +1,83 @@
+
+# Environment Variables (IMPORTANT: Never commit secrets)
+.env
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Streamlit specific
+frontend/.streamlit/
+
+# FastAPI/Uvicorn logs
+*.log
+
+# Database files (if using SQLite for testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook checkpoints (if used for testing)
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# LangSmith traces (local cache)
+.langchain/
+
+# Python package distribution
+build/
+dist/
+*.egg-info/
+
+# pytest cache (if tests are added)
+.pytest_cache/
+
+# Coverage reports (if testing with coverage)
+htmlcov/
+.coverage
+
+# Local development files
+local_test.py
+test_*.py
+debug_*.py
+
+# Documentation build files
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
+
+# Local configuration overrides
+local_settings.py
+config_local.py

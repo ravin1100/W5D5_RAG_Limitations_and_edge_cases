@@ -1,0 +1,28 @@
+# Core Framework
+fastapi
+uvicorn
+streamlit
+
+# LangChain Ecosystem
+langchain
+langchain-community
+langchain-google-genai
+langsmith
+langgraph
+
+# Database
+psycopg2-binary
+psycopg2
+sqlalchemy
+
+# Data Processing & Validation
+pydantic
+python-dotenv
+
+# Optional: For sample data generation
+faker
+
+# Additional utilities
+python-multipart
+
+plotly
